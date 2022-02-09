@@ -30,6 +30,7 @@ p{
     font-weight: 600;
 }
 
+
 nav{
     height: 70px;
     width: 100%;
@@ -77,6 +78,9 @@ nav>.nav{
     flex-direction: row;
     justify-content: flex-end;
 
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background-color: var(--secundairy);
+    padding-left: 100px;
 }
 
 .nav>.link{
