@@ -43,14 +43,22 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 nav>.logo{
     display: flex;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    background-color: var(--secundairy);
+    width: 200px;
 }
 
 .logo2{
-    margin: 10px;
+    padding: 10px;
+    padding-right: 50px;
+    width: auto;
+    clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+    background-color: var(--tertairy);
 }
 
 .logo-text{
@@ -84,12 +92,13 @@ nav>.nav{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 15px;
 
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
 }
 
 .nav>.link:hover{
     background-color: var(--tertairy);
     color: var(--font);
+    
 }
 
 main{
@@ -99,13 +108,34 @@ main{
 
 main>.row{
     width: 70%;
-    padding-left: 15%;
+    margin-left: 15%;
+
+
+    border-bottom-style: solid;
+    border-color: var(--border);
+}
+
+.row>.row-content{
+    width: 98%;
+    height: 100%;
+    padding-top: 0.5em;
+
+    margin-right: 1%;
+}
+
+.row>.row-img{
+    margin: 0;
+    padding: 0;
+
+    width: 700px;
+    height: 100%;
 }
 
 main>.ROW1{
-    height: 500px;
+    height: 600px;
     width: 100%;
-    padding: 0;
+    margin: 0;
+    border-style: none;
 }
 
 .ROW1>img{
@@ -114,5 +144,13 @@ main>.ROW1{
 }
 
 main>.ROW2{
-    height: 200px;
+    height: 100px;
+}
+
+main>.ROW3{
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
