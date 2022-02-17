@@ -1,0 +1,24 @@
+.instagram{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 48px;
+    color: var(--primary);
+    font-weight: 500;
+
+    display: block;
+    text-decoration: none;
+}
+
+.insta{
+    height: auto;
+}
+
+.instagram_feed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.insta-image{
+    max-width: 300px;
+    height: auto;
+}
