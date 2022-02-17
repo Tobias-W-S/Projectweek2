@@ -7,3 +7,18 @@
     display: block;
     text-decoration: none;
 }
+
+.insta{
+    height: auto;
+}
+
+.instagram_feed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.insta-image{
+    max-width: 300px;
+    height: auto;
+}
